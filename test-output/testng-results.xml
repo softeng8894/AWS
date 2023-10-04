@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-03T22:32:22 IST" name="Suite" finished-at="2023-10-03T22:32:28 IST" duration-ms="5686">
+  <suite started-at="2023-10-04T21:53:52 IST" name="Suite" finished-at="2023-10-04T21:53:56 IST" duration-ms="4493">
     <groups>
     </groups>
-    <test started-at="2023-10-03T22:32:22 IST" name="Test" finished-at="2023-10-03T22:32:28 IST" duration-ms="5686">
+    <test started-at="2023-10-04T21:53:52 IST" name="Test" finished-at="2023-10-04T21:53:56 IST" duration-ms="4493">
       <class name="AWS_Docker">
-        <test-method signature="AWS1()[pri:1, instance:AWS_Docker@74fe5c40]" started-at="2023-10-03T22:32:22 IST" name="AWS1" finished-at="2023-10-03T22:32:28 IST" duration-ms="5441" status="PASS">
+        <test-method signature="AWS1()[pri:1, instance:AWS_Docker@243c4f91]" started-at="2023-10-04T21:53:52 IST" name="AWS1" finished-at="2023-10-04T21:53:56 IST" duration-ms="4315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AWS1 -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:AWS_Docker@74fe5c40]" started-at="2023-10-03T22:32:28 IST" name="aftermethod" finished-at="2023-10-03T22:32:28 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:AWS_Docker@243c4f91]" started-at="2023-10-04T21:53:56 IST" name="aftermethod" finished-at="2023-10-04T21:53:56 IST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
