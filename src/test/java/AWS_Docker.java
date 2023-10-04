@@ -10,14 +10,15 @@ public class AWS_Docker {
 	@Test(priority = 1)
 	public void AWS1() throws IOException
 	{
-		driver = Common_class.BROWSER();
-		driver.manage().window().maximize();
-		driver.get("https://www.selenium.dev/");
-		driver.findElement(By.xpath("//*[@class='nav-link'][1]")).click();
+		//driver = Common_class.BROWSER();
+		//driver.manage().window().maximize();
+		//driver.get("https://www.selenium.dev/");
+		//driver.findElement(By.xpath("//*[@class='nav-link'][1]")).click();
+		System.out.println("PMO INDIA");
 	}
 	@AfterMethod
 	public void aftermethod()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 }
