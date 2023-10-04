@@ -11,8 +11,8 @@ public class AWS_Docker {
 	@Test(priority = 1)
 	public void AWS1() throws IOException
 	{
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		//driver = new ChromeDriver();
+		//driver.manage().window().maximize();
 		//driver.get("https://www.selenium.dev/");
 		//driver.findElement(By.xpath("//*[@class='nav-link'][1]")).click();
 		System.out.println("PMO INDIA");
