@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-06T11:39:24 IST" name="Default suite" finished-at="2023-10-06T11:39:32 IST" duration-ms="7903">
+  <suite started-at="2023-10-06T12:45:53 IST" name="Default suite" finished-at="2023-10-06T12:45:59 IST" duration-ms="6591">
     <groups>
     </groups>
-    <test started-at="2023-10-06T11:39:24 IST" name="Default test" finished-at="2023-10-06T11:39:32 IST" duration-ms="7903">
+    <test started-at="2023-10-06T12:45:53 IST" name="Default test" finished-at="2023-10-06T12:45:59 IST" duration-ms="6591">
       <class name="AWS_Docker">
-        <test-method signature="AWS_headless()[pri:0, instance:AWS_Docker@f5ac9e4]" started-at="2023-10-06T11:39:24 IST" name="AWS_headless" finished-at="2023-10-06T11:39:32 IST" duration-ms="7872" status="PASS">
+        <test-method signature="AWS_Container()[pri:0, instance:AWS_Docker@f5ac9e4]" started-at="2023-10-06T12:45:53 IST" name="AWS_Container" finished-at="2023-10-06T12:45:59 IST" duration-ms="6555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AWS_headless -->
+        </test-method> <!-- AWS_Container -->
       </class> <!-- AWS_Docker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

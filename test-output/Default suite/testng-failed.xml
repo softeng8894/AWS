@@ -5,8 +5,7 @@
     <classes>
       <class name="AWS_Docker">
         <methods>
-          <include name="aftermethod"/>
-          <include name="AWS1"/>
+          <include name="AWS"/>
         </methods>
       </class> <!-- AWS_Docker -->
     </classes>

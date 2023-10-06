@@ -1,22 +1,23 @@
 import java.io.IOException;
+import java.net.URL;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class AWS_Docker {
-
+    WebDriver driver;
 	@Test
-	public void AWS_headless() throws IOException
+	public void AWS_Container() throws IOException
 	{
-	  ChromeOptions co = new ChromeOptions();
-	  co.addArguments("--headless");
-	  co.addArguments("disable-gpu");
-	  WebDriver driver = WebDriverManager.chromedriver().capabilities(co).create();
-      driver.get("https://www.google.com/");
-      driver.manage().window().maximize();
-      System.out.println("PMO INDIA");
-      driver.quit();
+		ChromeOptions chromeoption = new ChromeOptions();
+		chromeoption.setCapability("browserName","chrome");
+		
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://43.204.140.65:4444/wd/hub"),chromeoption);
+		driver.manage().window().maximize();
+		driver.get("https://www.selenium.dev/");
+		System.out.println("chrome");
+		driver.quit();
 	}
 }
