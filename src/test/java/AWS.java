@@ -10,7 +10,6 @@ public class AWS {
 	public void AWS_headless() throws IOException
 	{
 	  ChromeOptions co = new ChromeOptions();
-	  co.setCapability("browserName","chrome");
 	  co.addArguments("--headless");
 	  WebDriver driver = WebDriverManager.chromedriver().capabilities(co).create();
       driver.get("https://www.google.com/");

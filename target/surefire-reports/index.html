@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="AWS" class="method navigator-link" hash-for-method="AWS_headless">AWS_headless</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="AWS_Docker" class="method navigator-link" hash-for-method="AWS_Container">AWS_Container</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AWS</span>
+              <span class="class-name">AWS_Docker</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AWS_headless">
-                  </a> <!-- AWS_headless -->
-                  <span class="method-name">AWS_headless</span>
+                  <a name="AWS_Container">
+                  </a> <!-- AWS_Container -->
+                  <span class="method-name">AWS_Container</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +146,7 @@
 &lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AWS&quot;/&gt;
+      &lt;class name=&quot;AWS_Docker&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -188,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AWS_headless')
-data.setCell(0, 2, 'AWS')
-data.setCell(0, 3, 6198);
+data.setCell(0, 1, 'AWS_Container')
+data.setCell(0, 2, 'AWS_Docker')
+data.setCell(0, 3, 4477);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,9 +221,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AWS</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AWS_Docker</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">AWS_headless</span>
+                <span class="method-name">AWS_Container</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

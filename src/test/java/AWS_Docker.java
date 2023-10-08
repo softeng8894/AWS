@@ -13,7 +13,7 @@ public class AWS_Docker {
 		ChromeOptions chromeoption = new ChromeOptions();
 		chromeoption.setCapability("browserName","chrome");
 		
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://43.204.140.65:4444/wd/hub"),chromeoption);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://3.110.196.201:4444/wd/hub"),chromeoption);
 		driver.manage().window().maximize();
 		driver.get("https://www.selenium.dev/");
 		System.out.println("chrome");
