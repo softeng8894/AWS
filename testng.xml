@@ -3,7 +3,7 @@
 <suite parallel="classes" name="Suite">
   <test thread-count="5" parallel="classes" name="Test">
     <classes>
-      <class name="AWS"/>
+      <class name="AWS_Docker"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
